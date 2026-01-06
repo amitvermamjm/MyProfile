@@ -67,3 +67,37 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: justify
 }
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.experience-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.experience-table th, .experience-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.experience-table th {
+    background-color: #bdbcbc;
+}
+
+.experience-table tr:nth-child(even) {
+    background-color: #e3e2e2;
+}
+
+.experience-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.experience-list li {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
