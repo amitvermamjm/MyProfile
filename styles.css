@@ -100,4 +100,30 @@ a {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+    list-style-type: circle;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.education-table th, .education-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: #bdbcbc;
+}
+
+.contact-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-table td{
+    padding: 8px;
+    text-align: left;
 }
