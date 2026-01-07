@@ -129,6 +129,15 @@ a {
     text-align: left;
 }
 
+.projects-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.projects-list li {
+    margin: none;
+    list-style-type: none;
+}
+
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
     #profile-container {
