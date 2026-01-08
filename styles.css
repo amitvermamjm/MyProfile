@@ -133,9 +133,10 @@ a {
 .projects-list {
     list-style-type: disc;
     padding-left: 20px;
+    padding-right: 20px;
 }
 .projects-list li {
-    margin: none;
+    margin: 10px;
     list-style-type: none;
 }
 
